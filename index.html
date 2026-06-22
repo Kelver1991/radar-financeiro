@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dashboard financeiro ficticio com foco em risco, PIX, carteira e leitura operacional."
+    />
+    <title>Radar Financeiro | Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Navegacao principal">
+        <div class="brand">
+          <div class="brand-mark">FI</div>
+          <div>
+            <strong>Radar Financeiro</strong>
+            <span>Painel de operacao</span>
+          </div>
+        </div>
+
+        <nav class="nav-list">
+          <a class="active" href="#overview" aria-current="page">
+            <i data-lucide="layout-dashboard"></i>
+            Visao geral
+          </a>
+          <a href="#risk">
+            <i data-lucide="shield-check"></i>
+            Risco
+          </a>
+          <a href="#pix">
+            <i data-lucide="scan-line"></i>
+            PIX
+          </a>
+          <a href="#customers">
+            <i data-lucide="users-round"></i>
+            Clientes
+          </a>
+        </nav>
+
+        <div class="profile-card">
+          <span>Projeto de portfolio</span>
+          <strong>Risco, PIX e carteira</strong>
+          <p>Um estudo meu sobre como transformar sinais financeiros em uma tela util.</p>
+        </div>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Dashboard ficticio para rotina bancaria</p>
+            <h1>Um painel para ler risco sem perder o contexto</h1>
+          </div>
+          <div class="top-actions">
+            <button class="icon-button" type="button" aria-label="Atualizar dados" title="Atualizar dados">
+              <i data-lucide="refresh-cw"></i>
+            </button>
+            <button class="primary-button" type="button">
+              <i data-lucide="download"></i>
+              Exportar relatorio
+            </button>
+          </div>
+        </header>
+
+        <section class="hero-grid" id="overview">
+          <article class="hero-panel">
+            <div class="hero-copy">
+              <span class="status-pill">
+                <i data-lucide="activity"></i>
+                Mesa em acompanhamento
+              </span>
+              <h2>Credito, fraude e carteira na mesma conversa</h2>
+              <p>
+                A proposta aqui e juntar sinais que normalmente ficam espalhados:
+                transacoes, historico, alertas e oportunidade comercial. Tudo com dados
+                simulados, mas pensando em uma rotina de banco de verdade.
+              </p>
+            </div>
+            <div class="radar-card" aria-label="Indicadores do score da carteira">
+              <canvas id="radarCanvas" width="360" height="280"></canvas>
+            </div>
+          </article>
+
+          <div class="metric-stack" aria-label="Indicadores principais">
+            <article class="metric-card accent-blue">
+              <span>Score medio</span>
+              <strong>842</strong>
+              <small>+7,8% contra o mes passado</small>
+            </article>
+            <article class="metric-card accent-green">
+              <span>Alertas resolvidos</span>
+              <strong>91,4%</strong>
+              <small>Dentro do combinado da operacao</small>
+            </article>
+            <article class="metric-card accent-yellow">
+              <span>Economia estimada</span>
+              <strong>R$ 1,8 mi</strong>
+              <small>Estimativa em transacoes barradas</small>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel" id="risk">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Risco</p>
+                <h2>O que merece atencao agora</h2>
+              </div>
+              <button class="ghost-button" type="button">
+                <i data-lucide="sliders-horizontal"></i>
+                Filtros
+              </button>
+            </div>
+            <div class="risk-list" id="riskList"></div>
+          </article>
+
+          <article class="panel" id="pix">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Monitor PIX</p>
+                <h2>Movimento por horario</h2>
+              </div>
+              <span class="live-badge">Live</span>
+            </div>
+            <div class="chart-wrap">
+              <canvas id="pixCanvas" width="620" height="280"></canvas>
+            </div>
+          </article>
+        </section>
+
+        <section class="bottom-grid" id="customers">
+          <article class="panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Open Finance</p>
+                <h2>Grupos que eu acompanharia</h2>
+              </div>
+            </div>
+            <div class="segments" id="segments"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Notas do projeto</p>
+                <h2>Escolhas que eu defenderia</h2>
+              </div>
+            </div>
+            <ul class="decision-list">
+              <li>
+                <i data-lucide="lock-keyhole"></i>
+                <span>Dados anonimos desde o comeco. Nada de CPF, nome real ou informacao sensivel.</span>
+              </li>
+              <li>
+                <i data-lucide="gauge"></i>
+                <span>A tela coloca urgencia e impacto lado a lado para evitar fila cega.</span>
+              </li>
+              <li>
+                <i data-lucide="accessibility"></i>
+                <span>Layout responsivo, contraste bom e navegacao compreensivel por leitores de tela.</span>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
