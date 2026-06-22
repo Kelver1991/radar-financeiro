@@ -1,21 +1,27 @@
-# Sugestão de post para LinkedIn
+# Post para LinkedIn
 
-Subi um projeto novo para o meu portfólio: **Radar Financeiro**.
+Publiquei um projeto novo no meu portfólio: **Radar Financeiro**.
 
-A ideia foi criar um dashboard fictício para uma rotina bancária, juntando risco, movimentação PIX, carteira de clientes e alguns indicadores operacionais em uma tela única.
+É um dashboard fictício para uma rotina bancária, pensado para juntar em uma única tela sinais de risco, movimentação PIX, carteira de clientes e indicadores operacionais.
 
-Fiz com HTML, CSS e JavaScript puro. Os gráficos foram desenhados com Canvas, sem biblioteca de chart.
+Construí com HTML, CSS e JavaScript puro, usando Canvas para os gráficos e dados simulados para preservar privacidade. O foco foi mostrar raciocínio de produto, organização de código e cuidado com uma interface que precisa ser clara para tomada de decisão.
 
-O que eu quis mostrar com ele:
+O objetivo não foi só fazer uma tela bonita. Eu quis demonstrar como penso uma solução para um contexto mais próximo do mundo real:
 
-- organização de interface;
-- leitura de dados;
-- cuidado com contexto financeiro;
-- preocupação com privacidade;
-- código simples de avaliar.
+- leitura rápida de informações importantes;
+- cuidado com dados sensíveis;
+- layout responsivo;
+- código simples de entender e evoluir;
+- experiência com cara de ferramenta de trabalho, não de landing page.
 
-Repositório: https://github.com/Kelver1991/radar-financeiro
+Minha base hoje passa por Python, FastAPI, automação, backend e desenvolvimento web. Esse projeto entra no portfólio como mais uma forma de mostrar que consigo transformar uma rotina operacional em uma solução visual, organizada e usável.
 
-Demo: https://kelver1991.github.io/radar-financeiro/
+Estou aberto a oportunidades em desenvolvimento Python, backend, automação e web. Sigo evoluindo meus projetos para mostrar, na prática, o que venho estudando e construindo.
 
-Não é projeto oficial de nenhuma instituição. É um estudo de portfólio com dados simulados.
+Repositório:
+https://github.com/Kelver1991/radar-financeiro
+
+Demo:
+https://kelver1991.github.io/radar-financeiro/
+
+#python #fastapi #backend #automacao #javascript #frontend #portfolio #desenvolvimentoweb #openfinance
