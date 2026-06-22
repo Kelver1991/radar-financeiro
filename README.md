@@ -6,7 +6,9 @@ Nao e projeto oficial de nenhuma instituicao. Todos os dados sao inventados.
 
 ## Demo
 
-Abra `index.html` no navegador ou publique a pasta no GitHub Pages.
+Demo publicada:
+
+https://kelver1991.github.io/radar-financeiro/
 
 ## A ideia
 
@@ -46,14 +48,6 @@ Se quiser servir localmente:
 ```bash
 python -m http.server 8080
 ```
-
-## Como publicar no GitHub Pages
-
-1. Suba os arquivos para um repositorio no GitHub.
-2. Acesse `Settings > Pages`.
-3. Em `Build and deployment`, escolha `Deploy from a branch`.
-4. Selecione a branch `main` e a pasta `/root`.
-5. Salve e aguarde a URL ser gerada.
 
 ## O que eu defenderia em uma entrevista
 
