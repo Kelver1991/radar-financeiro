@@ -14,6 +14,6 @@ O que eu quis mostrar com ele:
 - preocupacao com privacidade;
 - codigo simples de avaliar.
 
-Repositorio: <coloque aqui o link do GitHub>
+Repositorio: https://github.com/Kelver1991/radar-financeiro
 
 Nao e projeto oficial de nenhuma instituicao. E um estudo de portfolio com dados simulados.
