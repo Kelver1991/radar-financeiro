@@ -30,7 +30,7 @@ function renderSegments() {
             <strong>${segment.title}</strong>
             <small>${segment.metric}</small>
           </div>
-          <div class="bar" aria-label="Nivel de oportunidade ${segment.progress}%">
+          <div class="bar" aria-label="Nível de oportunidade ${segment.progress}%">
             <span style="width: ${formatPercent(segment.progress)}"></span>
           </div>
         </div>
@@ -55,7 +55,7 @@ function drawRadar() {
   const centerX = width / 2;
   const centerY = height / 2;
   const radius = Math.min(width, height) * 0.34;
-  const labels = ["Credito", "Fraude", "SLA", "NPS", "LGPD", "Custo"];
+  const labels = ["Crédito", "Fraude", "SLA", "NPS", "LGPD", "Custo"];
   const values = [0.86, 0.74, 0.91, 0.68, 0.96, 0.81];
 
   ctx.clearRect(0, 0, width, height);

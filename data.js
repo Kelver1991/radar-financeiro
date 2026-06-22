@@ -1,15 +1,15 @@
 const riskQueue = [
   {
-    name: "Conta PJ saindo do padrao",
-    detail: "Volume 3,2x maior que a media das ultimas semanas.",
+    name: "Conta PJ saindo do padrão",
+    detail: "Volume 3,2x maior que a média das últimas semanas.",
     priority: "Alta",
     level: "high",
     score: 92,
   },
   {
-    name: "Credito com renda oscilando",
-    detail: "Receita varia bastante, mas o historico de atraso segue baixo.",
-    priority: "Media",
+    name: "Crédito com renda oscilando",
+    detail: "Receita varia bastante, mas o histórico de atraso segue baixo.",
+    priority: "Média",
     level: "medium",
     score: 68,
   },
@@ -29,7 +29,7 @@ const segments = [
     progress: 78,
   },
   {
-    title: "Clientes para renegociacao antes do atraso",
+    title: "Clientes para renegociação antes do atraso",
     metric: "R$ 42 mi em carteira",
     progress: 63,
   },
