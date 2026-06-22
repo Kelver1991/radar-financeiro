@@ -418,7 +418,7 @@ h2 {
   margin-top: 2px;
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1600px) {
   .hero-grid,
   .content-grid,
   .bottom-grid {
