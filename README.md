@@ -10,6 +10,10 @@ Demo publicada:
 
 https://kelver1991.github.io/radar-financeiro/
 
+## Preview
+
+![Dashboard do Radar Financeiro](docs/images/radar-financeiro-dashboard.png)
+
 ## A ideia
 
 Eu queria montar uma tela que parecesse mais perto do dia a dia de um time financeiro: várias informações chegando ao mesmo tempo, algumas urgentes, outras comerciais, e alguém precisando decidir o que olhar primeiro.
